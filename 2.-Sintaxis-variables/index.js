@@ -2,7 +2,7 @@ const yo = [
     'Tomás',
     23,
     true,
-    new Date(1999, 10, 5),
+    new Date(1999, 8, 5),
     {
         título: 'De la Tierra a la Luna',
         autor: 'Julio Verne',
