@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: beige;
+}
+
+.container {
+    padding: 1rem;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section {
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: bisque;
+    margin: 1rem;
+}
+
+.parrafo {
+    border-radius: 1rem;
+    padding: .5rem;
+    margin: .5rem;
+    background-color: burlywood;
+}
+
+.dragged {
+    opacity: 0.3;
+}
+
+#drag-img {
+    width: 2rem;
+    height: 2rem;
+    background-color: burlywood;
+    box-shadow: 0 0 10px #8886;
+    border-radius: 50%;
+    position: absolute;
+    left: -100vw;
+}
+
+img {
+    width: 6rem;
+}
