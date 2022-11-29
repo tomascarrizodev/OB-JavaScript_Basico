@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis 3 lugares favoritos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Mis tres lugares favoritos</h1>
+    <div id="map"></div>
+    <div class="container">
+        <button onclick="initMap(latBoca, lngBoca, 17, 'La Bombonera')">La Bombonera</button>
+        <button onclick="initMap(latFrancia, lngFrancia, 16, 'La Torre Eiffel')">La torre Eiffel</button>
+        <button onclick="initMap(latCesars, lngCesars, 16, 'Caesars Palace')">Caesars Palace</button>
+    </div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBa1XIb0Kf3SRZL06KLLSaeyotGEZg7Wf0&callback=initMap&v=weekly"
+      defer
+    ></script>
+    <script src="./index.js"></script>
+</body>
+</html>
